@@ -1,0 +1,23 @@
+<div class="row card_template">
+  <div class="col-md-4 col-lg-4 my-3" *ngFor="let item of dataFilm">
+    <div class="card" style="">
+      <img src="{{item.Poster}}" class="card-img-top" alt="item.Title">
+      <div class="card-body">
+        <h6 class="card-subtitle mb-2 text-muted">Title: {{item.Title}}</h6>
+        <li class="card-text">Tahun: {{item.Year}}</li>
+        <li class="card-text">Type: {{item.Type}}</li>
+        <a href="#" class="btn btn-primary link_detail_film" data-imdbid="item.noImdbid"
+          (click)="modalView(item.imdbID)" data-toggle="modal" data-target="#staticBackdrop_detail">Show details</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade modal-dialog modal-lg" id="staticBackdrop_detail" data-backdrop="static"
+  data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <app-film-detail>
+    </app-film-detail>
+  </div>
+
+</div>

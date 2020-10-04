@@ -1,0 +1,14 @@
+---Film
+0: {Title: "Naruto: Shippûden", Year: "2007–2017", imdbID: "tt0988824", Type: "series", Poster: "https://m.media-amazon.com/images/M/MV5BMTE5NzIwMG…2M4ZWQ4XkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_SX300.jpg"}
+1: {Title: "Naruto", Year: "2002–2007", imdbID: "tt0409591", Type: "series", Poster: "https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNW…DUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"}
+2: {Title: "The Last: Naruto the Movie", Year: "2014", imdbID: "tt3717532", Type: "movie", Poster: "https://m.media-amazon.com/images/M/MV5BMjk1NzA4Njg4Ml5BMl5BanBnXkFtZTgwMDgxODQ5MzE@._V1_SX300.jpg"}
+3: {Title: "Boruto: Naruto The Movie", Year: "2015", imdbID: "tt4618398", Type: "movie", Poster: "https://m.media-amazon.com/images/M/MV5BNDIwYjg5Yz…TQxODM2XkEyXkFqcGdeQXVyMjc2Nzg5OTQ@._V1_SX300.jpg"}
+4: {Title: "Boruto: Naruto Next Generations", Year: "2017–", imdbID: "tt6342474", Type: "series", Poster: "https://m.media-amazon.com/images/M/MV5BYjM0MDRkYz…GY1YjRlXkEyXkFqcGdeQXVyMzExMzk5MTQ@._V1_SX300.jpg"}
+5: {Title: "Road to Ninja - Naruto the Movie", Year: "2012", imdbID: "tt2290828", Type: "movie", Poster: "https://m.media-amazon.com/images/M/MV5BMTQ5MTcyNDYwMV5BMl5BanBnXkFtZTgwNzMzNzc0MjE@._V1_SX300.jpg"}
+---Detail Film
+0:Director: "N/A",Actors: "Junko Takeuchi, Maile Flanagan, Kate Higgins, Chie Nakamura",Plot:"Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village."
+1:Director: "Shiki gami",Actors: "Junko Takeuchi, Maile Flanagan, Kate Higgins, Chie Nakamura",Plot:"Mangan, Turu, Ngombe"
+2:Director: "Zord Huns",Actors: "Junko Takeuchi, Maile Flanagan, Kate Higgins, Chie Nakamura",Plot:"Mangan, Turu, Ngombe"
+3:Director: "Natsu O Subadrun",Actors: "Junko Takeuchi, Maile Flanagan, Kate Higgins, Chie Nakamura",Plot:"Mangan, Turu, Ngombe"
+4:Director: "Hand Smith",Actors: "Junko Takeuchi, Maile Flanagan, Kate Higgins, Chie Nakamura",Plot:"Mangan, Turu, Ngombe"
+5:Director: "Julian Nagelsman",Actors: "Junko Takeuchi, Maile Flanagan, Kate Higgins, Chie Nakamura",Plot:"Mangan, Turu, Ngombe"

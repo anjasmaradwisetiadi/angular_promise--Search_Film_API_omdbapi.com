@@ -1,0 +1,42 @@
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col">
+        <h2>OMDB Search Film</h2>
+      </div>
+    </div>
+
+    <div class="row mt-5 justify-content-center">
+      <div class="col-6">
+       <form (ngSubmit)="searchButton()" #form="ngForm">
+        <div class="input-group input-group-md mb-3">
+            <input type="text" class="form-control search_film" placeholder="Recipient's username"
+              aria-label="Recipient's username" aria-describedby="button-addon2" 
+              ngModel name="search" 
+              #search="ngModel"
+              required>
+              
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary btn-warning" type="submit" id="button-addon2"
+              [disabled]="!form.valid"
+              >Search</button>
+            </div>
+        </div>
+       </form>
+      </div>
+    </div>
+
+    <!-- film -->
+    <app-film></app-film>
+
+
+    <!-- <div class="row">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop_detail"
+        >
+        Launch static backdrop modal
+      </button>
+    </div> -->
+
+    <!-- modal -->
+      <!-- <app-film-detail *ngIf="view"></app-film-detail> -->
+
+  </div>
